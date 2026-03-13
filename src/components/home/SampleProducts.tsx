@@ -9,31 +9,31 @@ const products = [
     name: 'Biopsy Punch',
     category: 'Gastroenterology',
     description: 'Precision forceps for endoscopic tissue sampling.',
-    image: '/images/products/biopsy-punch.jpeg'
+    image: '/images/products/biopsy punch.jpeg'
   },
   {
     name: 'Ellicks Evacuator',
     category: 'Urology',
     description: 'Device used for removal of bladder debris and clots.',
-    image: '/images/products/elicks-evacuator.jpeg'
+    image: '/images/products/elicks evacuator.jpeg'
   },
   {
     name: 'Metal Dilator',
     category: 'Urology',
     description: 'Medical dilator used for urethral dilation procedures.',
-    image: '/images/products/metal-dilator.jpeg'
+    image: '/images/products/metal dilator.jpeg'
   },
   {
     name: 'PCN Catheter',
     category: 'Urology',
     description: 'Percutaneous nephrostomy catheter for kidney drainage.',
-    image: '/images/products/pcn-catheter.jpeg'
+    image: '/images/products/pcn catheter.jpeg'
   },
   {
     name: 'Penile Clamp',
     category: 'Urology',
     description: 'Device used for management of urinary incontinence.',
-    image: '/images/products/penile-clamp.jpeg'
+    image: '/images/products/penile clamp.jpeg'
   }
 ];
 export const SampleProducts = () => {
@@ -100,7 +100,7 @@ export const SampleProducts = () => {
                   <p className="text-muted-foreground mb-6 line-clamp-2">
                     {product.description}
                   </p>
-                  <Button onClick={() => alert(`Viewing details for ${product.name}`)} variant="outline" className="w-full rounded-xl hover:bg-primary hover:text-white transition-all border-primary/20">
+                  <Button onClick={() => alert(`We can add a details section or a page for  ${product.name} here`)} variant="outline" className="w-full rounded-xl hover:bg-primary hover:text-white transition-all border-primary/20">
                     View Details
                   </Button>
                 </CardContent>

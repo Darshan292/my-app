@@ -73,7 +73,7 @@ export const HeroSection = () => {
             <Button asChild size="lg" className="bg-secondary hover:bg-secondary/90 text-white px-8">
               <Link to="/products">Explore Products</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="text-white border-white hover:bg-white/10 px-8">
+            <Button asChild size="lg" variant="outline" className="text-white bg-white/5 border-white hover:bg-white/10 px-8">
               <Link to="/contact">Contact Us</Link>
             </Button>
           </motion.div>
