@@ -10,17 +10,42 @@ import { motion, AnimatePresence } from 'framer-motion';
 const categories = ['All', 'Urology', 'Radiology', 'Gastroenterology', 'Gynecology', 'Nephrology'];
 
 const products = [
-  { id: 1, name: 'Biopsy Forceps', category: 'Gastroenterology', description: 'Precision forceps for endoscopic tissue sampling. Available in various sizes and cup types.', image: '/images/products/biopsy clamp.jpeg' },
-  { id: 2, name: 'Foley Balloon Catheter', category: 'Urology', description: '100% Silicone balloon catheter for long-term drainage. Sterile and biocompatible.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_a9b06a33-ba5b-40ba-9677-98021f9c9d00.jpg' },
-  { id: 3, name: 'Double J Stent', category: 'Urology', description: 'Ureteral stent for management of urinary flow. High radiopacity for better visualization.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_4a7f05f3-f7d1-4ed9-a9a2-daaed101acde.jpg' },
-  { id: 4, name: 'Guide Wire', category: 'Radiology', description: 'High-performance wires for vascular access procedures. PTFE coated for smooth movement.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_b8d86012-3ded-4397-9af9-671d6762293e.jpg' },
-  { id: 5, name: 'Pigtail Catheter', category: 'Radiology', description: 'Drainage catheter with multiple side holes. Soft polyurethane material.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_98390de1-baaa-44fd-93dc-543df90caf58.jpg' },
-  { id: 6, name: 'IUI Catheter', category: 'Gynecology', description: 'Intrauterine insemination catheter for fertility treatments. Atraumatic tip design.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_fdfa5e5c-9534-4551-9420-a0647775aa19.jpg' },
-  { id: 7, name: 'PCN Catheter', category: 'Urology', description: 'Percutaneous nephrostomy catheter with needle and guide wire.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_b8d86012-3ded-4397-9af9-671d6762293e.jpg' },
-  { id: 8, name: 'Turp Set', category: 'Urology', description: 'Transurethral resection of the prostate irrigation set.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_9ecfd405-0d4f-4ab5-b3ef-60d154927409.jpg' },
-  { id: 9, name: 'Stone Extraction Basket', category: 'Urology', description: 'Nitinol basket for kidney and ureteral stone removal.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_552f3a31-dd7f-447a-a51e-b567478b707d.jpg' },
+  { 
+    id: 1,
+    name: 'Biopsy Punch',
+    category: 'Gastroenterology',
+    description: 'Precision forceps for endoscopic tissue sampling. Available in various sizes and cup types.',
+    image: '/images/products/biopsy punch.jpeg'
+  },
+  { 
+    id: 2,
+    name: 'Ellicks Evacuator',
+    category: 'Urology',
+    description: 'Device used for removal of bladder debris and clots.',
+    image: '/images/products/elicks evacuator.jpeg'
+  },
+  { 
+    id: 3,
+    name: 'Metal Dilator',
+    category: 'Urology',
+    description: 'Medical dilator used for urethral dilation procedures.',
+    image: '/images/products/metal dilator.jpeg'
+  },
+  { 
+    id: 4,
+    name: 'PCN Catheter',
+    category: 'Urology',
+    description: 'Percutaneous nephrostomy catheter with needle and guide wire.',
+    image: '/images/products/pcn catheter.jpeg'
+  },
+  { 
+    id: 5,
+    name: 'Penile Clamp',
+    category: 'Urology',
+    description: 'Device used for management of urinary incontinence.',
+    image: '/images/products/penile clamp.jpeg'
+  }
 ];
-
 const ProductsPage = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
