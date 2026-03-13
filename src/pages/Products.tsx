@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const categories = ['All', 'Urology', 'Radiology', 'Gastroenterology', 'Gynecology', 'Nephrology'];
 
 const products = [
-  { id: 1, name: 'Biopsy Forceps', category: 'Gastroenterology', description: 'Precision forceps for endoscopic tissue sampling. Available in various sizes and cup types.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_e6f54573-9c6c-4fe3-8565-2ec70d57ed65.jpg' },
+  { id: 1, name: 'Biopsy Forceps', category: 'Gastroenterology', description: 'Precision forceps for endoscopic tissue sampling. Available in various sizes and cup types.', image: '/images/products/biopsy clamp.jpeg' },
   { id: 2, name: 'Foley Balloon Catheter', category: 'Urology', description: '100% Silicone balloon catheter for long-term drainage. Sterile and biocompatible.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_a9b06a33-ba5b-40ba-9677-98021f9c9d00.jpg' },
   { id: 3, name: 'Double J Stent', category: 'Urology', description: 'Ureteral stent for management of urinary flow. High radiopacity for better visualization.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_4a7f05f3-f7d1-4ed9-a9a2-daaed101acde.jpg' },
   { id: 4, name: 'Guide Wire', category: 'Radiology', description: 'High-performance wires for vascular access procedures. PTFE coated for smooth movement.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_b8d86012-3ded-4397-9af9-671d6762293e.jpg' },
