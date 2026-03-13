@@ -5,14 +5,37 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 const products = [
-  { name: 'Biopsy Forceps', category: 'Gastroenterology', description: 'Precision forceps for endoscopic tissue sampling.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_e6f54573-9c6c-4fe3-8565-2ec70d57ed65.jpg' },
-  { name: 'Foley Balloon Catheter', category: 'Urology', description: '100% Silicone balloon catheter for long-term drainage.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_a9b06a33-ba5b-40ba-9677-98021f9c9d00.jpg' },
-  { name: 'Double J Stent', category: 'Urology', description: 'Ureteral stent for management of urinary flow.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_4a7f05f3-f7d1-4ed9-a9a2-daaed101acde.jpg' },
-  { name: 'Guide Wire', category: 'Radiology', description: 'High-performance wires for vascular access procedures.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_b8d86012-3ded-4397-9af9-671d6762293e.jpg' },
-  { name: 'Pigtail Catheter', category: 'Radiology', description: 'Drainage catheter with multiple side holes.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_98390de1-baaa-44fd-93dc-543df90caf58.jpg' },
-  { name: 'IUI Catheter', category: 'Gynecology', description: 'Intrauterine insemination catheter for fertility treatments.', image: 'https://miaoda-site-img.s3cdn.medo.dev/images/KLing_fdfa5e5c-9534-4551-9420-a0647775aa19.jpg' },
+  {
+    name: 'Biopsy Punch',
+    category: 'Gastroenterology',
+    description: 'Precision forceps for endoscopic tissue sampling.',
+    image: '/images/products/biopsy-punch.jpeg'
+  },
+  {
+    name: 'Ellicks Evacuator',
+    category: 'Urology',
+    description: 'Device used for removal of bladder debris and clots.',
+    image: '/images/products/elicks-evacuator.jpeg'
+  },
+  {
+    name: 'Metal Dilator',
+    category: 'Urology',
+    description: 'Medical dilator used for urethral dilation procedures.',
+    image: '/images/products/metal-dilator.jpeg'
+  },
+  {
+    name: 'PCN Catheter',
+    category: 'Urology',
+    description: 'Percutaneous nephrostomy catheter for kidney drainage.',
+    image: '/images/products/pcn-catheter.jpeg'
+  },
+  {
+    name: 'Penile Clamp',
+    category: 'Urology',
+    description: 'Device used for management of urinary incontinence.',
+    image: '/images/products/penile-clamp.jpeg'
+  }
 ];
-
 export const SampleProducts = () => {
   return (
     <section className="py-24 bg-white">
